@@ -2658,7 +2658,7 @@ button,
   }
 
   .background-container {
-    background-image: url("../img/intro-background-mobile.jpg");
+    background-image: url("../img/intro-background-mobile.webp");
     background-size: cover;
   }
 
@@ -2773,7 +2773,7 @@ button,
   }
 
   .early-booking {
-    background-image: url("../img/booking-background-mobile.jpg");
+    background-image: url("../img/booking-background-mobile.webp");
     background-size: cover;
   }
 
@@ -2923,7 +2923,7 @@ button,
 
 @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), (max-width: 767px) and (min-resolution: 2dppx) {
   .background-container {
-    background-image: url("../img/intro-background-mobile@2x.jpg");
+    background-image: url("../img/intro-background-mobile@2x.webp");
   }
 
   .advantages {
@@ -2931,7 +2931,7 @@ button,
   }
 
   .early-booking {
-    background-image: url("../img/booking-background-mobile@2x.jpg");
+    background-image: url("../img/booking-background-mobile@2x.webp");
   }
 }
 
