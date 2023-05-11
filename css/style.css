@@ -1455,6 +1455,14 @@ button,
   padding-right: 5px;
 }
 
+.footer__logo.focus-visible:focus {
+  opacity: 0.8;
+}
+
+.footer__logo.focus-visible:active {
+  opacity: 0.3;
+}
+
 .footer__logo-image {
   fill: #f9fbfd;
 }
@@ -1566,7 +1574,8 @@ button,
   cursor: pointer;
 }
 
-.toggle__open {
+.toggle__open::before {
+  content: "";
   position: absolute;
   top: 7px;
   right: 0;
@@ -1575,7 +1584,8 @@ button,
   background-image: url("../img/sprite/burger-icon.svg");
 }
 
-.is-open .toggle__close {
+.is-open .toggle__close::before {
+  content: "";
   position: absolute;
   top: 7px;
   right: 0;
@@ -1742,9 +1752,8 @@ button,
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-  grid-template-columns: repeat(4, 1fr);
-  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin: 0;
 }
 
 .cruise-catalog__item {
@@ -1766,8 +1775,9 @@ button,
 }
 
 .cruise-card img {
-  -o-object-fit: contain;
-  object-fit: contain;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
   z-index: 3;
   min-width: 260px;
   min-height: 386px;
@@ -2947,6 +2957,10 @@ button,
   }
 
   .navigation__link:hover:not(.focus-visible) {
+    opacity: 0.8;
+  }
+
+  .footer__logo:hover:not(.focus-visible) {
     opacity: 0.8;
   }
 
