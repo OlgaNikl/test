@@ -1549,7 +1549,7 @@ button,
 
 .background-container {
   background-color: #002b66;
-  background-image: url("../../img/intro-background-desktop.jpg");
+  background-image: url("../img/intro-background-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1638,7 +1638,7 @@ button,
 
 .advantages {
   background-color: #f9fbfd;
-  background-image: url("../../img/advantages-background-desktop.jpg");
+  background-image: url("../img/advantages-background-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1866,7 +1866,7 @@ button,
 
 .early-booking {
   background-color: #f9fbfd;
-  background-image: url("../../img/booking-background-desktop.jpg");
+  background-image: url("../img/booking-background-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2270,7 +2270,7 @@ button,
   }
 
   .background-container {
-    background-image: url("../../img/intro-background-tablet.jpg");
+    background-image: url("../img/intro-background-tablet.jpg");
     background-size: cover;
   }
 
@@ -2300,7 +2300,7 @@ button,
   }
 
   .advantages {
-    background-image: url("../../img/advantages-background-tablet.jpg");
+    background-image: url("../img/advantages-background-tablet.jpg");
     background-size: cover;
   }
 
@@ -2389,7 +2389,7 @@ button,
   }
 
   .early-booking {
-    background-image: url("../../img/booking-background-tablet.jpg");
+    background-image: url("../img/booking-background-tablet.jpg");
     background-size: cover;
   }
 
@@ -2475,15 +2475,15 @@ button,
 
 @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1023px) and (-o-min-device-pixel-ratio: 2/1), (max-width: 1023px) and (min-resolution: 2dppx) {
   .background-container {
-    background-image: url("../../img/intro-background-tablet@2x.jpg");
+    background-image: url("../img/intro-background-tablet@2x.jpg");
   }
 
   .advantages {
-    background-image: url("../../img/advantages-background-tablet@2x.jpg");
+    background-image: url("../img/advantages-background-tablet@2x.jpg");
   }
 
   .early-booking {
-    background-image: url("../../img/booking-background-tablet@2x.jpg");
+    background-image: url("../img/booking-background-tablet@2x.jpg");
   }
 }
 
@@ -2648,7 +2648,7 @@ button,
   }
 
   .background-container {
-    background-image: url("../../img/intro-background-mobile.jpg");
+    background-image: url("../img/intro-background-mobile.jpg");
     background-size: cover;
   }
 
@@ -2682,7 +2682,7 @@ button,
   }
 
   .advantages {
-    background-image: url("../../img/advantages-background-mobile.jpg");
+    background-image: url("../img/advantages-background-mobile.jpg");
     background-size: cover;
   }
 
@@ -2763,7 +2763,7 @@ button,
   }
 
   .early-booking {
-    background-image: url("../../img/booking-background-mobile.jpg");
+    background-image: url("../img/booking-background-mobile.jpg");
     background-size: cover;
   }
 
@@ -2913,15 +2913,15 @@ button,
 
 @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), (max-width: 767px) and (min-resolution: 2dppx) {
   .background-container {
-    background-image: url("../../img/intro-background-mobile@2x.jpg");
+    background-image: url("../img/intro-background-mobile@2x.jpg");
   }
 
   .advantages {
-    background-image: url("../../img/advantages-background-mobile@2x.jpg");
+    background-image: url("../img/advantages-background-mobile@2x.jpg");
   }
 
   .early-booking {
-    background-image: url("../../img/booking-background-mobile@2x.jpg");
+    background-image: url("../img/booking-background-mobile@2x.jpg");
   }
 }
 
@@ -2965,14 +2965,14 @@ button,
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx) {
   .background-container {
-    background-image: url("../../img/intro-background-desktop@2x.jpg");
+    background-image: url("../img/intro-background-desktop@2x.jpg");
   }
 
   .advantages {
-    background-image: url("../../img/advantages-background-desktop@2x.jpg");
+    background-image: url("../img/advantages-background-desktop@2x.jpg");
   }
 
   .early-booking {
-    background-image: url("../../img/booking-background-desktop@2x.jpg");
+    background-image: url("../img/booking-background-desktop@2x.jpg");
   }
 }
