@@ -1572,7 +1572,7 @@ button,
   right: 0;
   width: 24px;
   height: 14px;
-  background-image: url("../../img/sprite/burger-icon.svg");
+  background-image: url("../img/sprite/burger-icon.svg");
 }
 
 .is-open .toggle__close {
@@ -1581,7 +1581,7 @@ button,
   right: 0;
   width: 15px;
   height: 15px;
-  background-image: url("../../img/svg/toggle-close.svg");
+  background-image: url("../img/svg/toggle-close.svg");
   background-position: center;
   z-index: 20;
 }
